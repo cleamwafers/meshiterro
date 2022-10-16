@@ -6,6 +6,9 @@ class CreatePostImages < ActiveRecord::Migration[6.1]
       t.string :userimage
       t.text :email
       t.text :password
+      t.string :shop_name
+      t.string :caption
+      t.integer :user_id
       t.timestamps
     end
   end
